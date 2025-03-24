@@ -33,12 +33,5 @@ go run node.go
 | `logs <id>` | Show logs of a specific node |
 | `exit` | Exit the program |
 
-## Network Partition & Recovery
-When a node is partitioned, it forms a separate election if multiple nodes are isolated. Upon reconnection, the system resolves log inconsistencies and maintains leader integrity based on term numbers.
 
-## License
-This project is licensed under the MIT License.
 
----
-
-🚀 **Developed with Go and Raft!**
